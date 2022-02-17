@@ -1,0 +1,41 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap);
+
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: radial-gradient(circle, #d0a1cf, #d097c9, #d08ec1, #d183ba, #d179b1, #d071b2, #ce69b4, #cc61b6, #c35cc5, #b35ad6, #9b5be8, #755ffb);
+  color: rgb(255, 255, 255);
+	font-size: 24px;
+	
+	font-family: 'Bungee Shade', cursive;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+	
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.first {
+	font-size: 100px;
+}
+
+.second {
+	font-size: 60px;
+	
+}
