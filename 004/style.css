@@ -75,3 +75,12 @@ body {
   animation-fill-mode: both;
 }
 
+@keyframes dot_three {
+  0%,
+  70% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
