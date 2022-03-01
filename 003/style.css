@@ -56,8 +56,48 @@
 	/* @cubic-bezier: infinite; */
 }
 
+.side-left {
+	position: absolute;
+	top: 67px;
+	left: 35px;
+	height: 57px;
+	width: 116px;
+	background: #F4F4F4;
+	clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+	animation: pyramid-shading 4s infinite;
+	/* @cubic-bezier: infinite; */
+}
+
+.side-right {
+	position: absolute;
+	top: 67px;
+	left: 93px;
+	height: 57px;
+	width: 58px;
+	background: #DDDADA;
+	clip-path: polygon(30% 100%, 100% 100%, 0% 0%);
+	animation: pyramid-shading 4s infinite reverse;
+	/* @cubic-bezier: infinite reverse; */
+}
 
 
+@keyframes pyramid-shading {
+	0% {
+		background: #272C34;
+	}
+	
+	30% {
+		background: #F4F4F4;
+	}
+	
+	70% {
+		background: #DDDADA;
+	}
+	
+	100% {
+		background: #272C34;
+	}
+}
 
 @keyframes sun-goes-down {
 	0% {
