@@ -23,3 +23,23 @@ body {
 }
 
 
+.dot_one {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+  animation: dot_one 3s ease infinite alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes dot_one {
+  0%,
+  10% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
