@@ -63,3 +63,15 @@ body {
     transform: scale(1);
   }
 }
+
+.dot_three {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+  animation: dot_three 3s ease infinite alternate;
+  animation-fill-mode: both;
+}
+
