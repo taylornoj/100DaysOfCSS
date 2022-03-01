@@ -42,7 +42,43 @@
 	animation: sky-turns-black 4s infinite;
 	/* @cubic-bezier: infinite; */
 }
+.sun {
+	position: absolute;
+	z-index: 2;
+	top: 7px;
+	left: 73px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background: #FFEF00;
+	transform-origin: 50% 400%;
+	animation: sun-goes-down 4s infinite;
+	/* @cubic-bezier: infinite; */
+}
 
+
+
+
+@keyframes sun-goes-down {
+	0% {
+		background: #F57209;
+		transform: rotate(-70deg);
+	}
+
+	30% {
+		background: #FFEF00;
+		transform: rotate(-28deg);
+	}
+
+	70% {
+		background: #FFEF00;
+	}
+
+	100% {
+		background: #F57209;
+		transform: rotate(70deg);
+	}
+}
 
 	@keyframes sky-turns-black {
 		0% {
