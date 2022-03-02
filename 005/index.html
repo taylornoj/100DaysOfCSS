@@ -1,87 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>005 - Statistic</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-<div class="frame">
-  <div class="center">
-		<div class="wrapper">
-			<div class="header">
-				<div class="header-left">
-					<div class="header-title">weekly report</div>
-					<div class="header-time">01.Feb-07.Feb</div>
-				</div>
-				<div class="header-right">
-					<div class="header-subtitle">Revenue</div>
-					<div class="header-amount">$3621.79</div>
-				</div>
-			</div>
-			<div class="body">
-				<div class="row">
-					<div class="row-1-content">
-						<div class="col">
-              <!-- <svg> is the container for SVG graphics -->
-							<svg height="3px" width="10px" >
-                <!-- creating the views & purchases legend lines -->
-								<line x1="0" y1="1" x2="10" y2="1" class="color color-1" />
-							</svg>
-							<span class="label">Views</span>
-						</div>
-						<div class="col">
-							<svg height="3px" width="10px" >
-								<line x1="0" y1="1" x2="10" y2="1" class="color color-2" />
-							</svg>
-							<span class="label">Purchases</span>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<svg class="data" width="100%" height="200%">
-            <!-- polyline = SVG shape creating straight lines connecting several points -->
-						<polyline points="9,46 50,12 90,23 130,11 171,38 211,48 251,19" class="color color-1"></polyline>
-            <!-- 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>005 - Statistic</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="frame">
+    <div class="center">
+      <div class="wrapper">
+        <div class="header">
+          <div class="header-left">
+            <div class="header-title">weekly report</div>
+            <div class="header-time">01.Feb-07.Feb</div>
+          </div>
+          <div class="header-right">
+            <div class="header-subtitle">Revenue</div>
+            <div class="header-amount">$3621.79</div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="row">
+            <div class="row-1-content">
+              <div class="col">
+                <!-- <svg> is the container for SVG graphics -->
+                <svg height="3px" width="10px">
+                  <!-- creating the views & purchases legend lines -->
+                  <line x1="0" y1="1" x2="10" y2="1" class="color color-1" />
+                </svg>
+                <span class="label">Views</span>
+              </div>
+              <div class="col">
+                <svg height="3px" width="10px">
+                  <line x1="0" y1="1" x2="10" y2="1" class="color color-2" />
+                </svg>
+                <span class="label">Purchases</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <svg class="data" width="100%" height="200%">
+              <!-- polyline = SVG shape creating straight lines connecting several points -->
+              <polyline points="9,46 50,12 90,23 130,11 171,38 211,48 251,19" class="color color-1"></polyline>
+              <!-- 
             cx = x-axis of center of the circle
             cy = y-axis of center of the circle
             r = radius of the circle 
             -->
-						<circle cx="9" cy="46" r="3" class="color-1-fill"/>
-						<circle cx="50" cy="12" r="3" class="color-1-fill"/>
-						<circle cx="90" cy="23" r="3" class="color-1-fill"/>
-						<circle cx="130" cy="11" r="3" class="color-1-fill"/>
-						<circle cx="171" cy="38" r="3" class="color-1-fill"/>
-						<circle cx="211" cy="48" r="3" class="color-1-fill"/>
-						<circle cx="251" cy="19" r="3" class="color-1-fill"/>
-					</svg>
-					<svg class="data" width="100%" height="200%">
-						<polyline points="9,61 50,50 90,65 130,55 171,61 211,74 251,64" class="color color-2"/>
-						<circle cx="9" cy="61" r="3" class="color-2-fill"/>
-						<circle cx="50" cy="50" r="3" class="color-2-fill"/>
-						<circle cx="90" cy="65" r="3" class="color-2-fill"/>
-						<circle cx="130" cy="55" r="3" class="color-2-fill"/>
-						<circle cx="171" cy="61" r="3" class="color-2-fill"/>
-						<circle cx="211" cy="74" r="3" class="color-2-fill"/>
-						<circle cx="251" cy="64" r="3" class="color-2-fill"/>
-					</svg>
-				</div>
-				<div class="row"></div>
-				<div class="row">
-					<div class="row-4-content">
-						<span class="day">mon</span>
-						<span class="day">tue</span>
-						<span class="day">wed</span>
-						<span class="day">thu</span>
-						<span class="day">fri</span>
-						<span class="day">sat</span>
-						<span class="day">sun</span>
-					</div>
-				</div>
-			</div>
-		</div>
+              <circle cx="9" cy="46" r="3" class="color-1-fill" />
+              <circle cx="50" cy="12" r="3" class="color-1-fill" />
+              <circle cx="90" cy="23" r="3" class="color-1-fill" />
+              <circle cx="130" cy="11" r="3" class="color-1-fill" />
+              <circle cx="171" cy="38" r="3" class="color-1-fill" />
+              <circle cx="211" cy="48" r="3" class="color-1-fill" />
+              <circle cx="251" cy="19" r="3" class="color-1-fill" />
+            </svg>
+            <svg class="data" width="100%" height="200%">
+              <polyline points="9,61 50,50 90,65 130,55 171,61 211,74 251,64" class="color color-2" />
+              <circle cx="9" cy="61" r="3" class="color-2-fill" />
+              <circle cx="50" cy="50" r="3" class="color-2-fill" />
+              <circle cx="90" cy="65" r="3" class="color-2-fill" />
+              <circle cx="130" cy="55" r="3" class="color-2-fill" />
+              <circle cx="171" cy="61" r="3" class="color-2-fill" />
+              <circle cx="211" cy="74" r="3" class="color-2-fill" />
+              <circle cx="251" cy="64" r="3" class="color-2-fill" />
+            </svg>
+          </div>
+          <div class="row"></div>
+          <div class="row">
+            <div class="row-4-content">
+              <span class="day">mon</span>
+              <span class="day">tue</span>
+              <span class="day">wed</span>
+              <span class="day">thu</span>
+              <span class="day">fri</span>
+              <span class="day">sat</span>
+              <span class="day">sun</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 </body>
+
 </html>
