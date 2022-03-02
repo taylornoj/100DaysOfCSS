@@ -1,0 +1,155 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: #42a7a1;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 60%;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 10px 10px 1rem rgb(0,0,0,.5);
+}
+
+.header {
+	background-color: #f1ba64;
+	flex: 0 0 22.5%;
+	color: white;
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+	padding: 0 20px;
+	line-height: 1.4;
+	font-size: .8rem;
+}
+
+.header-left {
+	margin-right: auto;
+}
+
+.header-right {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.header-title, .header-amount {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.header-time, .header-subtitle {
+	font-size: .6rem;
+}
+
+.header-time {
+	letter-spacing: .095rem;
+}
+
+.body {
+	background-color: white;
+	flex: 1 0;
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+}
+
+.row {
+	position: relative;
+	flex: 1 0;
+	display: flex;
+	justify-content: right;
+	font-size: .65rem;
+	color: #949494;
+}
+
+.row:not(:last-child) {
+	border-bottom: 1px solid #f2f2f2f2;
+}
+
+.row-1-content {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.col {
+	display: flex;
+	align-items: center;
+	margin-left: 1.5rem;
+}
+
+.col:first-child {
+	flex: 1 0;
+}
+
+.label {
+	margin-left: .7rem;
+}
+
+.row-4-content {
+	display: flex;
+	justify-content: space-between;
+	flex: 1 0;
+}
+
+.day {
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.data {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.color {
+	stroke-width: 2;
+	fill: none;
+}
+
+.color-1 {
+	stroke: #fa7373;
+}
+
+.color-1-fill {
+	fill: #fa7373;
+}
+
+.color-2 {
+	stroke: #7ba2ff;
+}
+
+.color-2-fill {
+	fill: #7ba2ff;
+}
