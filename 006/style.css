@@ -166,6 +166,10 @@ img {
   cursor: pointer;
 }
 
+.box:nth-child(2) {
+  margin: 1px 0;
+}
+
 span {
   display: block;
 }
