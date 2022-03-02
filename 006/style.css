@@ -48,6 +48,14 @@
   height: 73px;
   margin: 40px auto 0 auto;
 }
+  .profile .image:hover .circle_one {
+    transform: rotate(360deg);
+  
+}
+  .profile .image:hover .circle_two {
+    transform: rotate(-360deg);
+  }
+
 
 
 
@@ -59,6 +67,7 @@ img {
   margin-left: 7px;
   height: 73px;
   width: 73px;
+  
 }
 
 
@@ -74,8 +83,13 @@ img {
   border-style: solid;
   border-color: #be58e1 #be58e1 #be58e1 transparent;
   border-radius: 50%;
-  transition: all 1.5s ease-in-out;
+  transition: all 1.5s ;
+  transform: rotate(0deg);
+
 }
+/* .image:hover .circle_one {
+  transform: rotate(360deg);
+} */
 
 .circle_two {
   position: absolute;
@@ -88,8 +102,12 @@ img {
   border-width: 1px;
   border-style: solid;
   border-radius: 50%;
-  transition: all 1.5s ease-in-out;
+  transition: all 1.5s ;
+  transform: rotate(0deg);
+
 } 
 
-
+.image:hover .circle_two {
+  transform: rotate(360deg);
+}
 
