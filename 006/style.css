@@ -139,6 +139,26 @@ img {
   background: #4c16a3;
   color:#fff;
 }
+
+.stats {
+  float: right;
+  width: 35%;
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+
+}
+
+.box {
+
+  box-sizing: border-box;
+  width: 120px;
+  height: 100px;
+  background: #fad4f7;
+  text-align: center;
+  padding-top: 28px;
+  transition: all .4s ease-in-out;
+}
 /* .circle_one {
   position: absolute;
   box-sizing: border-box;
