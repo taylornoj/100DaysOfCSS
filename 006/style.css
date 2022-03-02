@@ -102,6 +102,19 @@ img {
   
 }
 
+.name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #7c3ae9;
+}
+
+.job {
+  font-size: 11px;
+  line-height: 15px;
+  color: #4c16a3;
+}
+
 
 /* .circle_one {
   position: absolute;
