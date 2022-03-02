@@ -119,6 +119,26 @@ img {
   margin-top: 33px;
 }
 
+		
+.btn {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: 0 auto 10px auto;
+  background: none;
+  border: 1px solid #4c16a3;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out;
+  color: #4c16a3;
+}
+
+.actions .btn:hover {
+  background: #4c16a3;
+  color:#fff;
+}
 /* .circle_one {
   position: absolute;
   box-sizing: border-box;
