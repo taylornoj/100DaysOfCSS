@@ -146,6 +146,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: right;
+  color: #4c1c99;
 
 }
 
@@ -158,6 +159,19 @@ img {
   text-align: center;
   padding-top: 28px;
   transition: all .4s ease-in-out;
+}
+
+span {
+  display: block;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.parameter {
+  font-size: 11px;
 }
 /* .circle_one {
   position: absolute;
