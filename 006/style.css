@@ -161,6 +161,11 @@ img {
   transition: all .4s ease-in-out;
 }
 
+.box:hover {
+  background-color: #e9a2e3;
+  cursor: pointer;
+}
+
 span {
   display: block;
 }
