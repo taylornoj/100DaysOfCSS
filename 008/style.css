@@ -15,6 +15,8 @@
   align-items: center;
 }
 
+
+
 .bubbleOne{
 	width: 100px;
 	height: 100px;
@@ -45,6 +47,27 @@
 	animation: rotateThree 3s infinite linear .6s; 
 }
 
+.bubbleFour {
+	width: 20px;
+	height: 20px;
+	background: white;
+	position: relative;
+	left: 80px ;
+	border-radius: 50%;
+	transform: rotate(45deg) translateX(0px) rotate(-45deg);
+	animation: rotateFour 3s infinite linear .8s; 
+}
+.bubbleFive {
+	width: 35px;
+	height: 35px;
+	background: white;
+	position: relative;
+	left: -80px ;
+	border-radius: 50%;
+	transform: rotate(45deg) translateX(0px) rotate(-45deg);
+	animation: rotateFive 3s infinite linear 1s; 
+}
+
 @keyframes rotateOne {
 	0%{
 		transform: rotate(0deg);
@@ -70,5 +93,22 @@
 	}
 	to{
 		transform: rotate(360deg) translateX(80px) rotate(-360deg);
+	}
+}
+
+@keyframes rotateFour {  
+	from{
+		transform: rotate(0deg) translateX(90px) rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg) translateX(90px) rotate(-360deg);
+	}
+}
+@keyframes rotateFive {  
+	from{
+		transform: rotate(0deg) translateX(-60px) rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg) translateX(-60px) rotate(-360deg);
 	}
 }
