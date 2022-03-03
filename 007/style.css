@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
+
 .frame {
   position: absolute;
   top: 50%;
@@ -9,10 +10,10 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: #264057;
-  color: #333;
+  background: #6a0080;
+  /* color: #333; */
   border-radius: 7px;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +24,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -34,10 +35,10 @@
   position: absolute;
   height: 290px;
   width: 290px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background: white;
   border-radius: 3px;
-  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.3);
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
 
@@ -45,14 +46,14 @@
   position: absolute;
   height: 60px;
   width: 100%;
-  background: #5f98cd;
+  background: #ba68c8;
   color: white;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   z-index: 2;
 }
- 
+
 .banner-title {
   position: absolute;
   margin: auto;
@@ -76,10 +77,11 @@
 .menu-button:hover {
   cursor: pointer;
 }
-  
-  .menu-button .menu-icon {
-    background: white;
-  }
+
+.menu-button .menu-icon {
+  background: #ee98fb;
+}
+
 
 .menu-icon {
   position: absolute;
@@ -100,6 +102,7 @@
   top: -25%;
   background: inherit;
 }
+
 .menu-icon::before {
   content: '';
   position: absolute;
@@ -110,34 +113,120 @@
   background: inherit;
 }
 
-
 .search-button {
   position: absolute;
   height: 10px;
   width: 10px;
   border-radius: 100%;
-  border: 2px solid #b2daff;
+  border: 2px solid #ee98fb;
   right: 8%;
   top: 35%;
 }
+
 .search-handle {
-  height: 3px;
+  height: 2px;
   width: 10px;
-  top: 11.3px;
-  left: 9px;
+  top: 12px;
+  left: 10px;
   position: absolute;
-  transform: rotate(44deg);
+  transform: rotate(45deg);
   background: #b2daff;
+  
 }
 
 .search-button:hover {
   cursor: pointer;
   border: 2px solid white;
 }
-  .search-button .search-handle {
-    background: white;
-  }
 
+.search-button .search-handle {
+  background: white;
+}
+
+
+.vertical-line {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: #ebebeb;
+  left: 10%;
+}
+
+.notify-grid {
+  position: absolute;
+  top: 60px;
+  height: 230px;
+  width: 100%;
+}
+
+.notify-set {
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  height: 40px;
+  opacity: 0;
+  width: 100%;
+  animation: slide-up 0.5s ease-out forwards;
+}
+
+.notify-set:hover {
+  cursor: pointer;
+}
+
+.notify-set .time {
+  color: #659ccf;
+}
+
+.notify-set .msg {
+  color: #659ccf;
+}
+
+.notify-set:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.notify-set:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.notify-dot {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 21px;
+  border-radius: 100%;
+  background: white;
+}
+
+.notify-dot::after {
+  content: '';
+  position: absolute;
+  background: white;
+  border: 2px solid #9c27b0;
+  height: 8px;
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  border-radius: 100%;
+}
+
+.time {
+  position: absolute;
+  left: 45px;
+  color: #9c27b0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.msg {
+  position: absolute;
+  left: 45px;
+  top: 15px;
+  color: #9c27b0;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 10px;
+}
 
 .search-input {
   position: absolute;
@@ -155,6 +244,7 @@
   transform: translateX(15px);
   opacity: 0;
   pointer-events: none;
+
 }
 
 .search-input:focus {
@@ -166,4 +256,64 @@
   pointer-events: all;
   transition: all .3s ease-in-out;
   transform: translateX(0px);
+}
+
+
+.side-menu {
+  position: absolute;
+  left: 40%;
+  height: 60%;
+  width: 40%;
+  top: 20%;
+  background: #43627d;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.side-menu-button {
+  height: 19.1%;
+  width: 100%;
+  background: inherit;
+  color: #90afca;
+  border-radius: 1px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 45px;
+}
+
+.side-menu-button:hover {
+  background: #385269;
+  cursor: pointer;
+  color: white;
+}
+
+.fas {
+  padding-right: 10px;
+}
+
+.menu-show {
+  left: 5%;
+}
+
+.center-aside {
+  left: 75%;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
