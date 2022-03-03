@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
 
-
 .frame {
   position: absolute;
   top: 50%;
@@ -13,7 +12,6 @@
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #6a0080;
-  /* color: #333; */
   border-radius: 7px;
   font-family: 'Open Sans', Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +27,6 @@
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 
 .card {
   position: absolute;
@@ -65,7 +62,6 @@
   margin: auto;
 }
 
-
 .menu-button {
   position: absolute;
   height: 15px;
@@ -81,7 +77,6 @@
 .menu-button .menu-icon {
   background: #ee98fb;
 }
-
 
 .menu-icon {
   position: absolute;
@@ -131,7 +126,6 @@
   position: absolute;
   transform: rotate(45deg);
   background: #b2daff;
-  
 }
 
 .search-button:hover {
@@ -142,7 +136,6 @@
 .search-button .search-handle {
   background: white;
 }
-
 
 .vertical-line {
   position: absolute;
@@ -213,7 +206,7 @@
 .time {
   position: absolute;
   left: 45px;
-  color: #9c27b0 ;
+  color: #9c27b0;
   font-size: 12px;
   font-weight: 400;
 }
@@ -244,7 +237,6 @@
   transform: translateX(15px);
   opacity: 0;
   pointer-events: none;
-
 }
 
 .search-input:focus {
@@ -257,7 +249,6 @@
   transition: all .3s ease-in-out;
   transform: translateX(0px);
 }
-
 
 .side-menu {
   position: absolute;
