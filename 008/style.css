@@ -20,5 +20,15 @@
 	height: 100px;
 	background: white;
 	border-radius: 50%;
-	animation: rotate1 3s infinite linear .2s; 
+	animation: rotateOne 3s infinite linear .2s; 
+}
+
+@keyframes rotateOne{
+	0%{
+		transform: rotate(0deg);
+	}
+	
+	100%{
+		transform: rotate(360deg);
+	}
 }
