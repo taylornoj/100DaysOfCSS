@@ -34,7 +34,18 @@
 	animation: rotateTwo 3s infinite linear .4s; 
 }
 
-@keyframes rotateOne{
+.bubbleThree {
+	width: 25px;
+	height: 25px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	left: 60px ;
+	transform: rotate(55deg) translateX(0px) rotate(-55deg);
+	animation: rotateThree 3s infinite linear .6s; 
+}
+
+@keyframes rotateOne {
 	0%{
 		transform: rotate(0deg);
 	}
@@ -44,11 +55,20 @@
 	}
 }
 
-@keyframes rotateTwo{  
+@keyframes rotateTwo {  
 	from{
 		transform: rotate(0deg) translateX(50px) rotate(0deg);
 	}
 	to{
 		transform: rotate(360deg) translateX(50px) rotate(-360deg);
+	}
+}
+
+@keyframes rotateThree {  
+	from{
+		transform: rotate(0deg) translateX(80px) rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg) translateX(80px) rotate(-360deg);
 	}
 }
