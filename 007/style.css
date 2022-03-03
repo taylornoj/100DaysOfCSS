@@ -213,7 +213,7 @@
 .time {
   position: absolute;
   left: 45px;
-  color: #9c27b0;
+  color: #9c27b0 !important;
   font-size: 12px;
   font-weight: 400;
 }
@@ -265,7 +265,7 @@
   height: 60%;
   width: 40%;
   top: 20%;
-  background: #43627d;
+  background: #ce93d8;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -275,7 +275,7 @@
   height: 19.1%;
   width: 100%;
   background: inherit;
-  color: #90afca;
+  color: #4a148c;
   border-radius: 1px;
   position: relative;
   margin: auto;
@@ -289,12 +289,12 @@
 }
 
 .side-menu-button:hover {
-  background: #385269;
+  background: #9c64a6;
   cursor: pointer;
   color: white;
 }
 
-.fas {
+.fa {
   padding-right: 10px;
 }
 
