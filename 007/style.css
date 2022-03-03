@@ -57,7 +57,7 @@
 .banner-title {
   position: absolute;
   margin: auto;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
   line-height: 60px;
@@ -174,11 +174,11 @@
 }
 
 .notify-set .time {
-  color: #659ccf;
+  color: #9c27b0;
 }
 
 .notify-set .msg {
-  color: #659ccf;
+  color: #6a0080;
 }
 
 .notify-set:nth-child(2) {
@@ -213,7 +213,7 @@
 .time {
   position: absolute;
   left: 45px;
-  color: #9c27b0 !important;
+  color: #9c27b0 ;
   font-size: 12px;
   font-weight: 400;
 }
