@@ -23,6 +23,17 @@
 	animation: rotateOne 3s infinite linear .2s; 
 }
 
+.bubbleTwo {
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 50%;
+	position: relative;
+	left: 70px ;
+	transform: rotate(45deg) translateX(0px) rotate(-45deg);
+	animation: rotateTwo 3s infinite linear .4s; 
+}
+
 @keyframes rotateOne{
 	0%{
 		transform: rotate(0deg);
@@ -30,5 +41,14 @@
 	
 	100%{
 		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotateTwo{  
+	from{
+		transform: rotate(0deg) translateX(50px) rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg) translateX(50px) rotate(-360deg);
 	}
 }
