@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
 .frame {
   position: absolute;
   top: 50%;
@@ -6,109 +8,167 @@
   height: 400px;
   margin-top: -200px;
   margin-left: -200px;
-  border-radius: 6px;
-  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-  font-family: "Open Sans", Helvetica, sans-serif;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.metaballs-container {
+  width: 100%;
+  height: 100%;
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: contrast(10);
 }
 
-
-
-.bubbleOne{
-	width: 100px;
-	height: 100px;
-	background: white;
-	border-radius: 50%;
-	animation: rotateOne 3s infinite linear .2s; 
+.metaball {
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(6px);
 }
 
-.bubbleTwo {
-	width: 20px;
-	height: 20px;
-	background: white;
-	border-radius: 50%;
-	position: relative;
-	left: 70px ;
-	transform: rotate(45deg) translateX(0px) rotate(-45deg);
-	animation: rotateTwo 3s infinite linear .4s; 
+.metaball.big:first-child {
+  width: 100px;
+  height: 100px;
+  animation: bigBlurMoveOne 4000ms linear infinite;
 }
 
-.bubbleThree {
-	width: 25px;
-	height: 25px;
-	background: white;
-	border-radius: 50%;
-	position: relative;
-	left: 60px ;
-	transform: rotate(55deg) translateX(0px) rotate(-55deg);
-	animation: rotateThree 3s infinite linear .6s; 
+.metaball.big:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  animation: bigBlurMoveTwo 2000ms linear infinite;
 }
 
-.bubbleFour {
-	width: 20px;
-	height: 20px;
-	background: white;
-	position: relative;
-	left: 80px ;
-	border-radius: 50%;
-	transform: rotate(45deg) translateX(0px) rotate(-45deg);
-	animation: rotateFour 3s infinite linear .8s; 
-}
-.bubbleFive {
-	width: 35px;
-	height: 35px;
-	background: white;
-	position: relative;
-	left: -80px ;
-	border-radius: 50%;
-	transform: rotate(45deg) translateX(0px) rotate(-45deg);
-	animation: rotateFive 3s infinite linear 1s; 
+.metaball.big:nth-child(3) {
+  width: 30px;
+  height: 30px;
+  animation: bigBlurMoveThree 3000ms linear infinite;
 }
 
-@keyframes rotateOne {
-	0%{
-		transform: rotate(0deg);
-	}
-	
-	100%{
-		transform: rotate(360deg);
-	}
+.metaball.small-one {
+  background: white;
+  top: 45%;
+  left: 30%;
+  width: 18px;
+  height: 18px;
+  animation: smallBlurMoveOne 7000ms linear infinite;
 }
 
-@keyframes rotateTwo {  
-	from{
-		transform: rotate(0deg) translateX(50px) rotate(0deg);
-	}
-	to{
-		transform: rotate(360deg) translateX(50px) rotate(-360deg);
-	}
+.metaball.small-two {
+  background: white;
+  top: 45%;
+  left: 31%;
+  width: 25px;
+  height: 25px;
+  animation: smallBlurMoveOne 8000ms linear infinite;
 }
 
-@keyframes rotateThree {  
-	from{
-		transform: rotate(0deg) translateX(80px) rotate(0deg);
-	}
-	to{
-		transform: rotate(360deg) translateX(80px) rotate(-360deg);
-	}
+.metaball.small-three {
+  background: white;
+  top: 40%;
+  left: 33%;
+  width: 20px;
+  height: 20px;
+  animation: smallBlurMoveOne 4000ms linear infinite;
 }
 
-@keyframes rotateFour {  
-	from{
-		transform: rotate(0deg) translateX(90px) rotate(0deg);
-	}
-	to{
-		transform: rotate(360deg) translateX(90px) rotate(-360deg);
-	}
+.metaball.small-four {
+  background: white;
+  top: 40%;
+  left: 26%;
+  width: 20px;
+  height: 20px;
+  animation: smallBlurMoveOne 2300ms linear infinite;
 }
-@keyframes rotateFive {  
-	from{
-		transform: rotate(0deg) translateX(-60px) rotate(0deg);
-	}
-	to{
-		transform: rotate(360deg) translateX(-60px) rotate(-360deg);
-	}
+
+.metaball.small-five {
+  background: white;
+  top: 40%;
+  left: 27%;
+  width: 30px;
+  height: 30px;
+  animation: smallBlurMoveOne 3400ms linear infinite;
+}
+
+.metaball.small-six {
+  background: white;
+  top: 73%;
+  left: 50%;
+  width: 17px;
+  height: 17px;
+  animation: smallBlurMoveTwo 2500ms linear infinite;
+}
+
+.metaball.small-seven {
+  background: white;
+  top: 70%;
+  left: 45%;
+  width: 22px;
+  height: 22px;
+  animation: smallBlurMoveTwo 3500ms linear infinite;
+}
+
+@keyframes bigBlurMoveOne {
+  0% {
+    transform: rotate(0deg) translateX(15px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(15px);
+  }
+}
+
+@keyframes bigBlurMoveTwo {
+  0% {
+    transform: rotate(0deg) translateX(30px);
+  }
+
+  100% {
+    transform: rotate(-360deg) translateX(30px);
+  }
+}
+
+@keyframes bigBlurMoveThree {
+  0% {
+    transform: rotate(0deg) translateX(-10px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(-10px);
+  }
+}
+
+@keyframes smallBlurMoveOne {
+  0% {
+    transform: rotate(0deg) translateX(85px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(85px);
+  }
+}
+
+@keyframes smallBlurMoveTwo {
+  0% {
+    transform: rotate(0deg) translateY(-70px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(-70px);
+  }
 }
