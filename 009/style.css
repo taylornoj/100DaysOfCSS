@@ -101,7 +101,7 @@
   height: 6px;
 }
 
-.backhill_one, .backhill_two, .backhill_three {
+.backhill_one, .backhill_two {
 position: absolute;
   z-index: 2;
   width: 337px;
