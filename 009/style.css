@@ -100,6 +100,23 @@
   width: 6px;
   height: 6px;
 }
+
+.backhill_one, .backhill_two, .backhill_three {
+position: absolute;
+  z-index: 2;
+  width: 337px;
+  height: 281px;
+  top: 201px;
+  left: -57px;
+  background: #26314F;
+  border-radius: 50%;
+}
+
+.backhill_two {
+  top: 197px;
+  left: 177px;
+}
+
 @keyframes rise {
   from {
     transform: translate(-20px, 200px);
