@@ -32,6 +32,16 @@
           animation: rise 1s ease-out;
 }
 
+.crater_one {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 9px;
+  left: 28px;
+  border-radius: 10px;
+  background: #ECE1A8;
+}
+
 @keyframes rise {
   from {
     transform: translate(-20px, 200px);
