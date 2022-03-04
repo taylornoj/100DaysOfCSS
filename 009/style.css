@@ -32,7 +32,7 @@
           animation: rise 1s ease-out;
 }
 
-.crater_one {
+.moon .crater_one, .moon .crater_two {
   position: absolute;
   width: 11px;
   height: 11px;
@@ -41,6 +41,12 @@
   border-radius: 10px;
   background: #ECE1A8;
 }
+
+.moon .crater_two {
+  top: 12px;
+  left: 0;
+}
+
 
 @keyframes rise {
   from {
