@@ -33,12 +33,16 @@
 }
 
 .moon .crater_one, .moon .crater_two,
-.moon .crater_three {
+.moon .crater_three, .moon .crater_four,
+.moon .crater_five, .moon .crater_six,
+.moon .crater_seven, .moon .crater_eight,
+.moon .crater_nine, .moon .crater_ten,
+.moon .crater_eleven {
   position: absolute;
   width: 11px;
   height: 11px;
-  top: 9px;
-  left: 28px;
+  /* top: 9px;
+  left: 28px; */
   border-radius: 10px;
   background: #e0d69f;
 }
@@ -53,6 +57,49 @@
   left: 10px;
 } 
 
+.moon .crater_four {
+  top: 37px;
+  left: 49px;
+}
+
+.moon .crater_five {
+  top: 24px;
+  left: 61px;
+}
+.moon .crater_six {
+  top: 55px;
+  left: 33px;
+}
+.moon .crater_seven {
+  top: 17px;
+  left: 46px;
+  width: 6px;
+  height: 6px;
+}
+.moon .crater_eight {
+  top: 28px;
+  left: 27px;
+  width: 9px;
+  height: 9px;
+}
+.moon .crater_nine {
+  top: 39px;
+  left: 17px;
+  width: 6px;
+  height: 6px;
+}
+
+.moon .crater_ten {
+  top: 9px;
+  left: 28px;
+}
+
+.moon .crater_eleven {
+  top: 20px;
+  left: 15px;
+  width: 6px;
+  height: 6px;
+}
 @keyframes rise {
   from {
     transform: translate(-20px, 200px);
