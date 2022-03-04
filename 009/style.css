@@ -17,3 +17,26 @@
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
 }
+
+.moon {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  top: 45px;
+  left: 55px;
+  border-radius: 50px;
+  background: #F6EDBD;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 #F6EDBD;
+  -webkit-animation: rise 1s ease-out;
+          animation: rise 1s ease-out;
+}
+
+@keyframes rise {
+  from {
+    transform: translate(-20px, 200px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
