@@ -134,6 +134,30 @@ position: absolute;
   left: 292px;
 }
 
+.panel {
+  position: absolute;
+  z-index: 10;
+  width: 400px;
+  height: 90px;
+  left: 0px;
+  bottom: 0px;
+  background: #fff;
+}
+
+.panel .temperature {
+  float: left;
+  margin-left: 20px;
+  font-size: 45px;
+  line-height: 90px;
+}
+
+.panel .info {
+  float: left;
+  margin: 25px 0 0 13px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 @keyframes rise {
   from {
     transform: translate(-20px, 200px);
