@@ -175,6 +175,57 @@ position: absolute;
 .panel .future_temp td:first-child {
   font-weight: 300;
 }
+
+.drop_large_one, .drop_small_one, .drop_small_two, 
+.drop_small_three, .drop_small_four, .drop_small_five, 
+.drop_medium_one, .drop_medium_two, .drop_medium_three,
+.drop_medium_four, .drop_medium_five {
+  position: absolute;
+  z-index: 20;
+  left: 18px;
+  bottom: 90px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7FC1F9;
+  -webkit-animation: drop 0.8s linear 1.48s infinite;
+          animation: drop 0.8s linear 1.48s infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  transform-origin: 50% 100%;
+}
+
+.drop_large_one:before, .drop_small_one:before, .drop_small_two:before, 
+.drop_small_three:before, .drop_small_four:before, .drop_small_five:before, 
+.drop_medium_one:before, .drop_medium_two:before, .drop_medium_three:before,
+.drop_medium_four:before, .drop_medium_five:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -2px;
+  left: 1px;
+  width: 6px;
+  height: 6px;
+  background: #7FC1F9;
+  border-radius: 3px;
+}
+
+.drop_large_one:after, .drop_small_one:after, .drop_small_two:after, 
+.drop_small_three:after, .drop_small_four:after, .drop_small_five:after, 
+.drop_medium_one:after, .drop_medium_two:after, .drop_medium_three:after,
+.drop_medium_four:after, .drop_medium_five:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -5px;
+  left: 2px;
+  width: 4px;
+  height: 10px;
+  background: #7FC1F9;
+  border-radius: 50%;
+}
+
+
 @keyframes rise {
   from {
     transform: translate(-20px, 200px);
