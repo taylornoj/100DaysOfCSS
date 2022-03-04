@@ -101,7 +101,8 @@
   height: 6px;
 }
 
-.backhill_one, .backhill_two {
+.backhill_one, .backhill_two, .fronthill_one,
+.fronthill_two, .fronthill_three {
 position: absolute;
   z-index: 2;
   width: 337px;
@@ -115,6 +116,22 @@ position: absolute;
 .backhill_two {
   top: 197px;
   left: 177px;
+}
+
+.fronthill_one, .fronthill_two, .fronthill_three {
+  background: #303C5D;
+  top: 248px;
+  left: -137px;
+}
+
+.fronthill_two {
+  top: 221px;
+  left: 63px;
+}
+
+.fronthill_three {
+  top: 248px;
+  left: 292px;
 }
 
 @keyframes rise {
