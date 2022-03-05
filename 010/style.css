@@ -35,3 +35,10 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.text-container{
+	text-align: center;
+	width: 160px;
+	height: 85px;
+	color: #fff;
+}
