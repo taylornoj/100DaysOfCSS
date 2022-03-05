@@ -181,7 +181,7 @@
   font-weight: 300;
 }
 
-.drop_large_one, .drop_large_two, .drop_large_three, 
+.drop_large_one, .drop_large_two, .drop_large_three,
 .drop_large_four, .drop_large_five, .drop_large_six,
 .drop_large_seven, .drop_large_eight, .drop_large_nine,
 .drop_small_one, .drop_small_two, .drop_large_ten,
@@ -205,7 +205,7 @@
   transform-origin: 50% 100%;
 }
 
-.drop_large_one:before, .drop_large_two:before, .drop_large_three:before, 
+.drop_large_one:before, .drop_large_two:before, .drop_large_three:before,
 .drop_large_four:before, .drop_large_five:before, .drop_large_six:before,
 .drop_large_seven:before, .drop_large_eight:before, .drop_large_nine:before,
 .drop_small_one:before, .drop_small_two:before, .drop_large_ten:before,
@@ -225,7 +225,7 @@
   border-radius: 3px;
 }
 
-.drop_large_one:after, .drop_large_two:after, .drop_large_three:after, 
+.drop_large_one:after, .drop_large_two:after, .drop_large_three:after,
 .drop_large_four:after, .drop_large_five:after, .drop_large_six:after,
 .drop_large_seven:after, .drop_large_eight:after, .drop_large_nine:after,
 .drop_small_one:after, .drop_small_two:after, .drop_large_ten:after,
@@ -256,20 +256,6 @@
   animation-fill-mode: both;
 }
 
-/* .drop_medium_one:before {
-  top: -2px;
-  left: 1px;
-  width: 4px;
-  height: 4px;
-}
-
-.drop_medium_one:after {
-  top: -4px;
-  left: 2px;
-  width: 4px;
-  height: 7px;
-} */
-
 .drop_small_one {
   left: 18px;
   opacity: 0.3;
@@ -280,22 +266,6 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
-/* .drop_small_one:before {
-  top: -2px;
-  left: 1px;
-  width: 2px;
-  height: 2px;
-}
-
-.drop_small_one:after {
-  top: -4px;
-  left: 2px;
-  width: 2px;
-  height: 6px;
-} */
-
-
 
 .drop_large_two {
   position: absolute;
@@ -313,20 +283,16 @@
   transform-origin: 50% 100%;
 }
 
-
-
 .drop_medium_two {
   left: 56px;
   opacity: 0.6;
   width: 6px;
   height: 6px;
   -webkit-animation: drop 1.5s linear 1.6s infinite;
-          animation: drop 1.5s linear 1.6s infinite;
+  animation: drop 1.5s linear 1.6s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-
-
 
 .drop_small_two {
   left: 56px;
@@ -334,12 +300,10 @@
   width: 4px;
   height: 4px;
   -webkit-animation: drop 2s linear 1.4s infinite;
-          animation: drop 2s linear 1.4s infinite;
+  animation: drop 2s linear 1.4s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-
-
 
 .drop_large_three {
   position: absolute;
@@ -351,12 +315,11 @@
   border-radius: 50%;
   background: #7FC1F9;
   -webkit-animation: drop 0.9s linear 0.92s infinite;
-          animation: drop 0.9s linear 0.92s infinite;
+  animation: drop 0.9s linear 0.92s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
-
 
 .drop_medium_three {
   left: 94px;
@@ -364,12 +327,10 @@
   width: 6px;
   height: 6px;
   -webkit-animation: drop 1.5s linear 0.92s infinite;
-          animation: drop 1.5s linear 0.92s infinite;
+  animation: drop 1.5s linear 0.92s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-
-
 
 .drop_small_three {
   left: 94px;
@@ -377,9 +338,9 @@
   width: 4px;
   height: 4px;
   -webkit-animation: drop 2s linear 0.52s infinite;
-          animation: drop 2s linear 0.52s infinite;
+  animation: drop 2s linear 0.52s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_small_three:before {
@@ -406,12 +367,11 @@
   border-radius: 50%;
   background: #7FC1F9;
   -webkit-animation: drop 0.9s linear 1.56s infinite;
-          animation: drop 0.9s linear 1.56s infinite;
+  animation: drop 0.9s linear 1.56s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
-
 
 .drop_medium_four {
   left: 132px;
@@ -419,12 +379,10 @@
   width: 6px;
   height: 6px;
   -webkit-animation: drop 1.4s linear 0.92s infinite;
-          animation: drop 1.4s linear 0.92s infinite;
+  animation: drop 1.4s linear 0.92s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-
-
 
 .drop_small_four {
   left: 132px;
@@ -432,9 +390,9 @@
   width: 4px;
   height: 4px;
   -webkit-animation: drop 2s linear 1.44s infinite;
-          animation: drop 2s linear 1.44s infinite;
+  animation: drop 2s linear 1.44s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_small_four:before {
@@ -461,13 +419,11 @@
   border-radius: 50%;
   background: #7FC1F9;
   -webkit-animation: drop 0.9s linear 1.8s infinite;
-          animation: drop 0.9s linear 1.8s infinite;
+  animation: drop 0.9s linear 1.8s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
-
-
 
 .drop_medium_five {
   left: 170px;
@@ -475,23 +431,21 @@
   width: 6px;
   height: 6px;
   -webkit-animation: drop 1.4s linear 2s infinite;
-          animation: drop 1.4s linear 2s infinite;
+  animation: drop 1.4s linear 2s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
- 
 .drop_small_five {
   left: 170px;
   opacity: 0.3;
   width: 4px;
   height: 4px;
   -webkit-animation: drop 2.1s linear 1.76s infinite;
-          animation: drop 2.1s linear 1.76s infinite;
+  animation: drop 2.1s linear 1.76s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-
 
 .drop_large_six {
   position: absolute;
@@ -503,9 +457,9 @@
   border-radius: 50%;
   background: #7FC1F9;
   -webkit-animation: drop 0.8s linear 0.72s infinite;
-          animation: drop 0.8s linear 0.72s infinite;
+  animation: drop 0.8s linear 0.72s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
 
@@ -515,9 +469,9 @@
   height: 4px;
   opacity: 0.3;
   -webkit-animation: drop 1.4s linear 2s infinite;
-          animation: drop 1.4s linear 2s infinite;
+  animation: drop 1.4s linear 2s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_medium_seven {
@@ -527,25 +481,9 @@
   height: 6px;
   -webkit-animation: drop 2s linear 1.24s infinite;
   animation: drop 2s linear 1.24s infinite;
--webkit-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* 
-.drop_large_seven {
-  position: absolute;
-  content: "";
-  display: block;
-  top: -5px;
-  left: 2px;
-  width: 4px;
-  height: 10px;
-  background: #7FC1F9;
-  border-radius: 50%;
-  -webkit-animation: drop 2s linear 1.29s infinite;
-  animation: drop 2s linear 1.29s infinite;
--webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-} */
 
 .drop_small_eight {
   left: 284px;
@@ -553,9 +491,9 @@
   width: 4px;
   height: 4px;
   -webkit-animation: drop 2s linear 1.24s infinite;
-          animation: drop 2s linear 1.24s infinite;
+  animation: drop 2s linear 1.24s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_medium_eight {
@@ -575,9 +513,9 @@
   border-radius: 50%;
   background: #7FC1F9;
   -webkit-animation: drop 0.8s linear 0.36s infinite;
-          animation: drop 0.8s linear 0.36s infinite;
+  animation: drop 0.8s linear 0.36s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
 
@@ -586,7 +524,7 @@
   opacity: 0.3;
   -webkit-animation: drop 2.1s linear 0.88s infinite;
   animation: drop 2.1s linear 0.88s infinite;
--webkit-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
@@ -607,21 +545,21 @@
   border-radius: 50%;
   background: #7FC1F9;
   -webkit-animation: drop 0.8s linear 1.76s infinite;
-          animation: drop 0.8s linear 1.76s infinite;
+  animation: drop 0.8s linear 1.76s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   transform-origin: 50% 100%;
 }
- 
+
 .drop_small_ten {
   left: 360px;
   opacity: 0.3;
   width: 4px;
   height: 4px;
   -webkit-animation: drop 2s linear 0.08s infinite;
-          animation: drop 2s linear 0.08s infinite;
+  animation: drop 2s linear 0.08s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_medium_ten {
@@ -630,9 +568,9 @@
   width: 6px;
   height: 6px;
   -webkit-animation: drop 1.4s linear 0.84s infinite;
-          animation: drop 1.4s linear 0.84s infinite;
+  animation: drop 1.4s linear 0.84s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_large_ten {
@@ -642,19 +580,18 @@
 .drop_small_nine {
   left: 322px;
   -webkit-animation: drop 1.9s linear 3s infinite;
-          animation: drop 1.9s linear 3s infinite;
+  animation: drop 1.9s linear 3s infinite;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .drop_medium_nine {
   left: 320px;
   -webkit-animation: drop 1.1s linear 2.3s infinite;
   animation: drop 1.1s linear 2.3s infinite;
--webkit-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
 
 @keyframes rise {
   from {
