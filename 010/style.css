@@ -42,3 +42,10 @@
 	height: 85px;
 	color: #fff;
 }
+
+svg{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
