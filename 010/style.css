@@ -73,6 +73,20 @@ h3, span{
 	font-size: 0.8rem;
 }
 
+.fa {
+  color: #F85B5B;
+  animation: beat 1s ease-in-out infinite;
+}
+
+@keyframes beat {
+	0% {
+		transform: scale(1);
+	}
+	35% {
+		transform: scale(1.2);
+	}
+}
+
 @keyframes dash{
 	100%{
 		stroke-dashoffset:-565;
