@@ -39,8 +39,9 @@
 .text-container{
 	text-align: center;
 	width: 160px;
-	height: 85px;
+	height: 95px;
 	color: #fff;
+
 }
 
 svg{
@@ -68,7 +69,7 @@ h1{
 
 h3, span{
 	margin: 0;
-	font-weight: 300;
+	font-weight: 30;
 	font-size: 0.8rem;
 }
 
