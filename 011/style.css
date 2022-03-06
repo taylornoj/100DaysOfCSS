@@ -53,7 +53,7 @@
 }
 
 .left .shoe {
-
+  animation: shoe-turn 2s ease-in-out infinite;
 }
 
 @keyframes leg-swing {
@@ -62,5 +62,20 @@
 	}
 	50% {
 		transform: rotate(40deg);
+	}
+}
+
+@keyframes shoe-turn {
+	0%, 100% {
+		transform: rotate(-10deg) translateY(-5px) translateX(10px);
+	}
+	25% {
+		transform: rotate(0deg) translateY(0px) translateX(0);
+	}
+	50% {
+		transform: rotate(10deg) translateY(-10px) translateX(10px);
+	}
+	75% {
+		transform: rotate(0deg) translateY(-30px) translateX(0);
 	}
 }
