@@ -23,3 +23,27 @@
 	bottom: 0;
 	background: #232323;
 }
+
+.invisible_person {
+  animation: fade-in .8s ease-out 1s;
+	animation-fill-mode: both;
+}
+
+.leg {
+	position: absolute;
+	top: 0px;
+	left: 147px;
+	width: 151px;
+	height: 245px;
+	transform-origin: 50% 0;
+}
+
+.shoe {
+	position: absolute;
+	width: 151px;
+	height: 128px;
+	left: 0;
+	bottom: 0;
+	background: url('https://100dayscss.com/codepen/doc-martens.svg') center center no-repeat;
+	transform-origin: 0 95%;
+}
