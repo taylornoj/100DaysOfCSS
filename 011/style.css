@@ -12,6 +12,14 @@
 	background: -moz-radial-gradient(center, ellipse cover,  rgba(246,232,215,1) 0%, rgba(218,190,155,1) 100%);
 	background: -webkit-radial-gradient(center, ellipse cover,  rgba(246,232,215,1) 0%,rgba(218,190,155,1) 100%); 
 	background: radial-gradient(ellipse at center,  rgba(246,232,215,1) 0%,rgba(218,190,155,1) 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e8d7', endColorstr='#dabe9b',GradientType=1 ); 
 	overflow: hidden;
+}
+
+.floor {
+	position: absolute;
+	top: 244px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #232323;
 }
