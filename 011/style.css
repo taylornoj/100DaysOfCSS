@@ -7,10 +7,11 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 5px;
-	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	background: rgb(246,232,215); 
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(246,232,215,1) 0%, rgba(218,190,155,1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(246,232,215,1) 0%,rgba(218,190,155,1) 100%); 
+	background: radial-gradient(ellipse at center,  rgba(246,232,215,1) 0%,rgba(218,190,155,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e8d7', endColorstr='#dabe9b',GradientType=1 ); 
 	overflow: hidden;
-  background: #282624;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
