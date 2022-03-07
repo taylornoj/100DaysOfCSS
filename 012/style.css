@@ -12,9 +12,30 @@
   border-radius: 5px;
 	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
 	overflow: hidden;
-  background: #4c4c4c;
+  background: #ffb300;
   color: #333;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.quote {
+  position: relative;
+	margin-top: 40px;
+	padding: 0 30px;
+  
+}
+
+.quote:before {
+  display: block;
+	position: absolute;
+	z-index: 0;
+	content: "„";
+	font-family: Arial;
+	font-size: 250px;
+	color: #ffe54c;
+	opacity: 0.8;
+	line-height: 35px;
+	top: -100px;
+	left: 7px;
 }
