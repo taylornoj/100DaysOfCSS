@@ -22,7 +22,7 @@
 
 .quote {
   position: relative;
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 0 30px;
   
 }
@@ -34,10 +34,10 @@
 	content: "„";
 	font-family: Arial;
 	font-size: 260px;
-	color: #ffe54c;
-	opacity: .6;
+	color: #f8d511;
+	opacity: .4;
 	line-height: 35px;
-	top: -100px;
+	top: -105px;
 	left: 7px;
 }
 
@@ -45,7 +45,7 @@ p {
   position: relative;
 	font-size: 27px;
 	line-height: 35px;
-  margin-top: 80px;
+  margin-top: 56px;
 font-weight:500;
 }
 
