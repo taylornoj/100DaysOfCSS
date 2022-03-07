@@ -34,8 +34,15 @@
 	font-family: Arial;
 	font-size: 250px;
 	color: #ffe54c;
-	opacity: 0.8;
+	opacity: .6;
 	line-height: 35px;
 	top: -100px;
 	left: 7px;
+}
+
+p {
+  position: relative;
+	font-size: 26px;
+	line-height: 35px;
+	margin: 80px 0;
 }
